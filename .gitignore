@@ -1,0 +1,5 @@
+backend/backend/.env
+backend/backend/main/migrations/*
+!backend/backend/main/migrations/__init__.py
+frontend/node_modules/
+frontend/.next/
