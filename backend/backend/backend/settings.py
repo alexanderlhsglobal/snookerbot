@@ -143,6 +143,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'main/media/')
 # CUSTOM Auth
 AUTH_USER_MODEL = 'main.User'
 
+# Auto PK field
+DEFAULT_AUTO_FIELD='django.db.models.AutoField' 
+
 # DRF
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [

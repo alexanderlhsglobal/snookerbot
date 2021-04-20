@@ -9,6 +9,7 @@ django = "*"
 django-admin = "*"
 python-decouple = "*"
 djangorestframework = "*"
+twilio = "*"
 
 [dev-packages]
 
